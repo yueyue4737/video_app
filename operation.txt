@@ -1,0 +1,35 @@
+# config
+1. npx create-react-app . --template typescript
+2. yarn add @ionic/react
+3. npm install -g @ionic/cli
+4. ionic start my-ionic-react-app tabs --type=react
+5. ionic serve
+6. yarn build
+7. npx cap init
+8. brew reinstall cocoapods
+9. npx cap add ios
+10. npx cap sync ios
+11. npx cap open ios
+12. ionic capacitor run ios --livereload
+
+# resources
+1. https://www.youtube.com/watch?v=-aHBhvkrFlY
+2. 
+
+
+- Go to your new project: cd ./my-ionic-react-app
+- Run ionic serve within the app directory to see your app in the browser
+- Run ionic capacitor add to add a native iOS or Android project using Capacitor
+- Generate your app icon and splash screens using cordova-res --skip-config --copy
+- Explore the Ionic docs for components, tutorials, and more: https://ion.link/docs
+- Building an enterprise app? Ionic has Enterprise Support and Features: https://ion.link/enterprise-edition
+
+[INFO] Development server running!
+       
+       Local: http://localhost:8100
+       
+       Use Ctrl+C to quit this process
+
+[INFO] Browser window opened to http://localhost:8100!
+
+Now you can run npx cap open ios to launch Xcode
